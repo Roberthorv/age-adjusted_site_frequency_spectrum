@@ -28,13 +28,12 @@ initialize() {
 	initializeMutationType("m1", 0.5, "f", 0.0);  // neutral
 	initializeGenomicElementType("g1", m1, 1.0);
 	initializeGenomicElement(g1, 0, L-1);
-	//initializeRecombinationRate(1e-8);
 	
-	// transposon mutation type; also neutral, but red
+	// transposon mutation type; also neutral
 	initializeMutationType("m2", 0.5, "f", 0);
 	m2.convertToSubstitution = F;
 	
-	// disabled transposon mutation type; dark red
+	// disabled transposon mutation type;
 	initializeMutationType("m3", 0.5, "f", 0);
 	m3.convertToSubstitution = F;
 }
