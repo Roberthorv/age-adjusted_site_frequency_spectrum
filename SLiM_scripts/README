@@ -2,5 +2,5 @@ All SLiM scripts can be run as followes:
 
 /home/rhorvath/SLiM_TE_simulations/SLiM/build/slim -d run=1 TE_negative_selection_s_0.005_TE_burst.slim
 
-The -d flage indicates the run number, which will be included in the names of the outputfiles.
+The -d flage indicates the run number, which will be included in the names of the output files.
 
