@@ -1,1 +1,5 @@
-Here are all the R scripts
+Here are all the R scripts needed to analyse the SLiM result files.
+
+The Get_summary_of_SLiM_results.R script can be used to get the SFS, age distribution as well as calculate delta freqeuncy after adjusting the age of the neutral sites. 
+The script can be run like this: Rscript Get_summary_of_SLiM_results.R -P neg_sel_s_0.005_TE_burst
+
