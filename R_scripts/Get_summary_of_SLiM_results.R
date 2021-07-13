@@ -19,8 +19,8 @@ if (!is.null(opt$help) ){
     "\n\nScript to summarize the SLiM results. 
     
     # requires
-    -P a pattern that identifies all SLiM result files to use [required argument].
-    -M which analyses to run [default All]. If mulptiple analyses should be run use - (e.g. SFS-AFS).
+    -P a pattern that identifies all SLiM result files to use [required argument]. (e.g. neg_sel_s_0.005_TE_burst)
+    -M which analyses to run [default All]. If mulptiple analyses should be run use - (e.g. SFS-AFS). Possible analyses: All, SFS, AFS, AgeDist, DeltaFreq.
 
     \n", stderr())
   
