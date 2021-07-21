@@ -60,7 +60,7 @@ function_plot_mean_age <- function(x, ...) {
   )
 }
 # plot expected delta age based on Maruyama (1974)
-function_add_points_expected_delta_maruyama <- function(S = (4*500*-0.01), N = 500, S2 = (4*500*0.0000000000001), N2 = 500, ...) {
+function_add_points_expected_delta_maruyama <- function(S = (4*500*-0.01), N = 500, N2 = 500, ...) {
   points(1, my_maruyama_age(S, N, 0.025) - expected_allele_age(0.025, N2), ...)
   points(2, my_maruyama_age(S, N, 0.075) - expected_allele_age(0.075, N2), ...)
   points(3, my_maruyama_age(S, N, 0.125) - expected_allele_age(0.125, N2), ...)
