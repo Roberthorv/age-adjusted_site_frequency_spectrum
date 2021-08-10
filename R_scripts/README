@@ -5,4 +5,4 @@ The script can be run like this: Rscript Get_summary_of_SLiM_results.R -P neg_se
 -P indicates the pattern that will be used to find the input files.
 The output files will all have 100 columns, which corresponds to the result calculated for the 1st, 2nd, 3rd ... 100th run. (e.g. in the output files ending with _delta_frequ_0.1_quant_bin each column corresponds to the observed delta freqeuncy in the 1st decile (1st line), 2nd decile (2nd line), etc...)
 
-The Analyse_the_SLiM_summary_files.R script contains the code used to analyse the summary files generated with the Get_summary_of_SLiM_results.R script to generate the results in {...}.
+The Analyse_the_SLiM_summary_files.R script contains the code used to analyse the summary files generated with the Get_summary_of_SLiM_results.R script to generate the results in Horvath et al. 2021.
